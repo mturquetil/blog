@@ -1,52 +1,35 @@
 +++
-title = "Presentation"
+title = "Maxime Turquetil's Blog"
 authorTwitter = "" #do not include @
 cover = ""
 showFullContent = true
+noPosts = true
 +++
 
 
-<img style="margin: 0 auto" src="https://raw.githubusercontent.com/anfederico/Clairvoyant/master/media/Logo.png" alt="drawing" width="200"/>
+<img style="margin: 0 auto; border-radius: 50%; border: 6px solid #ff626638;" src="https://mturquetil.fr/profil.webp" alt="drawing" width="200"/>
+<p style="text-align: center; font-weight: bold; font-size: 24px">Maxime Turquetil</p>
+<p style="text-align: center;">Hi! Welcome on my Computer Security blog 😀</p><p style="text-align: center;">I hope you'll find suitable content to you. As this blog will be beginner-intermediate content, errors can occur.</p>
+<p style="text-align: center; padding-bottom: 30px; border-bottom: 3px solid #ff626638;">If you see any errors, have suggestions about the blog or ideas about blogs posts, feel free to contact me at <a href="mailto:maxime@mturquetil.fr">maxime@mturquetil.fr</a>.</p>
 
-## Presentation
-```python
-pip install clairvoyant
-```
+## About me
 
-## Latest Development Changes
-```bash
-git clone https://github.com/anfederico/Clairvoyant
-```
+My passion for computer security is logically related from my curiosity and my desire to divert normal usage of what surrounds me.
 
-## Backtesting Signal Accuracy
-During the testing period, the model signals to buy or sell based on its prediction for price
-movement the following day. 
-alone, you can rapidly build and test more reliable models.
+During my early teenage I remember doing challenges on Root-Me.org and even trying to find SQL Injection on production websites with Havij (good'ol script kiddie 😌).
 
-```python
-from clairvoyant.engine import Backtest
-import pandas as pd
+This is how naturally I did computer science studies. My studies gave me the opportunity to discover new areas of computer science. So I continued my journey with web development where I did a 2-year internship as a Fullstack developer in a tourism start-up. I had good times developping websites, mobile applications and improving web-applications with cutting-edge technologies but still felt it was just a phase in my career.
 
-features  = ["EMA", "SSO"]   # Financial indicators of choice
-trainStart = 0               # Start of training period
-trainEnd   = 700             # End of training period
-testStart  = 701             # Start of testing period
-testEnd    = 1000            # End of testing period
-buyThreshold  = 0.65         # Confidence threshold for predicting buy (default = 0.65) 
-sellThreshold = 0.65         # Confidence threshold for predicting sell (default = 0.65)
-continuedTraining = False    # Continue training during testing period? (default = false)
+Thanks to Coronavirus Lockdown (🥳) that took place in March, I reconnected to computer security by doing some wargames on OverTheWire.org and playing Cryptopals. I later on did pwn.college which is an initiative by ASU I'll talk about in a future blogpost.
 
-# Initialize backtester
-backtest = Backtest(features, trainStart, trainEnd, testStart, testEnd, buyThreshold, sellThreshold, continuedTraining)
+## Blog aimings
 
-# A little bit of pre-processing
-data = pd.read_csv("SBUX.csv", date_parser=['date'])
-data = data.round(3)
+First of all, the reason I created this blog is mostly because I like to share knowledge and help people. That's kind of payback about the help I received from others on IRCs, Discords or forums.
 
-# Start backtesting and optionally modify SVC parameters
-# Available paramaters can be found at: http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
-backtest.start(data, kernel='rbf', C=1, gamma=10)
-backtest.conditions()
-backtest.statistics()
-backtest.visualize('SBUX')
-```
+This blog will also allow me to leave a trace of my progression in computer security area.
+
+Here's a list of content I'll publish on this blog:
+* Write-ups (Wargames, CTF challenges)
+* Deepening of a subject (e.g, while doing Cryptopals I implemented AES algorithm in C)
+* Tutorials on vulnerabilities and their exploitation
+* Feedback from training experiences (eg. pwn.college)

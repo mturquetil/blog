@@ -47,7 +47,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Infosec Journey"
+    title = "Maxime Turquetil's Blog"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -59,7 +59,7 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Hacknowledge"
+      logoText = "Infosec Blog"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -67,4 +67,8 @@ paginate = 5
         identifier = "write-ups"
         name = "Write-ups"
         url = "/write-ups"
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
 
