@@ -47,7 +47,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Maxime Turquetil's Blog"
+    title = "~/security"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""

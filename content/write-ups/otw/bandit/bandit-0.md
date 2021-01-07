@@ -5,11 +5,20 @@ cover = ""
 tags = ["linux", "cli", "ssh"]
 keywords = ["", ""]
 description = "A challenge to learn using SSH to connect to a remote host"
-showFullContent = false
+showFullContent = true
 +++
 
 
 # Usage
-```bash
-ssh localhost@localhost -p 666
+```javascript
+// coucouc
+var rows = prompt("How many rows for your multiplication table?");
+var cols = prompt("How many columns for your multiplication table?");
+
+if(rows == "" || rows == null)
+	rows = 10;
+if(cols== "" || cols== null)
+	cols = 10;
+
+createTable(rows, cols);
 ```

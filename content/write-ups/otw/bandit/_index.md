@@ -3,5 +3,9 @@ title = "Bandit"
 authorTwitter = "" #do not include @
 cover = ""
 showFullContent = true
-description = "Description of my post"
+isTitle = false
 +++
+
+# About the wargame
+
+<p style="border: 4px solid #ff626638; padding: 10px;">Bandit is a wargame to learn linux basics commands</p>

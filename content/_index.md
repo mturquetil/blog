@@ -1,5 +1,5 @@
 +++
-title = "Maxime Turquetil's Blog"
+title = "/home/maxime/security"
 authorTwitter = "" #do not include @
 cover = ""
 showFullContent = true
