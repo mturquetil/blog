@@ -3,12 +3,12 @@ theme = "terminal"
 paginate = 5
 
 [markup.goldmark.renderer]
-  unsafe= true
+	unsafe= true
 
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "write-ups"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "red"
@@ -48,8 +48,8 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "~/security"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Computer Security Blog - Maxime Turquetil"
+    subtitle = "A blog about computer security with challenge write-ups and and exploring security concepts"
     owner = ""
     keywords = ""
     copyright = ""
@@ -60,7 +60,7 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Infosec Blog"
+      logoText = "Maxime Turquetil's Blog"
       logoHomeLink = "/"
 
     [languages.en.menu]

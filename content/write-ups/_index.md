@@ -1,7 +1,12 @@
 +++
-title = "/home/maxime/security"
+title = "OverTheWire"
+date = ""
+author = ""
 authorTwitter = "" #do not include @
 cover = ""
+keywords = ["", ""]
+description = ""
+isTitle = true
 showFullContent = true
 +++
 
