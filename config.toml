@@ -1,3 +1,4 @@
+baseURL = "https://blog.mturquetil.fr/"
 theme = "terminal"
 paginate = 5
 

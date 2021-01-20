@@ -5,4 +5,4 @@ cover = ""
 showFullContent = true
 +++
 
-Welcome in the Write-ups part of my blog, here you'll find series of write-ups regrouped by Wargames hosts, CTF
+Welcome in the Write-ups part of my blog, here you will find a series of articles gathered by Wargames hosts, CTF
