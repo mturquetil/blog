@@ -8,6 +8,7 @@ paginate = 5
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
+  rssURL = "/index.xml"
   contentTypeName = "write-ups"
 
   # ["orange", "blue", "red", "green", "pink"]
